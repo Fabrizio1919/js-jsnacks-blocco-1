@@ -2,7 +2,7 @@
 Il programma stampa la somma di tutti i numeri inseriti. */
 let somma= 0
 let number;
-for( let i = 0; i <= 10 ; i++) {
+for( let i = 0; i < 10 ; i++) {
     console.log(i);
     number= parseInt(prompt('inserisci un numero'));
     if(number>0) {
@@ -10,7 +10,6 @@ for( let i = 0; i <= 10 ; i++) {
     }
 }
 console.log(somma);
-
 
 
 
